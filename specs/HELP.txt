@@ -1,0 +1,13 @@
+sqlite2json - Read a SQLite database and write JSON to stdout
+
+USAGE:
+    sqlite2json --db-file <PATH> [--sql <QUERY>]
+
+OPTIONS:
+    --db-file <PATH>    Path to the SQLite database file (required)
+    --sql <QUERY>       SQL SELECT query to execute
+    --help              Print this help message
+
+OUTPUT:
+    With --sql:     JSON list with one row object per line
+    Without --sql:  JSON object tree with all tables

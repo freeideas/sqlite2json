@@ -1,0 +1,8 @@
+# Use GNU target on Windows to avoid MSVC dependency
+[target.x86_64-pc-windows-gnu]
+linker = "../tools/mingw64/bin/gcc.exe"
+
+# MSVC config (not used - kept for reference)
+# [target.x86_64-pc-windows-msvc]
+# linker = "rust-lld"
+# rustflags = ["-L", "tools/sdk/c/um/x64"]

@@ -1,0 +1,22 @@
+# Temporary files
+tmp/
+
+# Large binaries
+ai-coder/bin/
+released/
+
+# Tools directory
+tools/
+
+# Rust build artifacts
+target/
+*.pdb
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
